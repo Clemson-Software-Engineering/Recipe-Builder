@@ -30,6 +30,11 @@ npm install
 
 ## Features and Requirements
 
+  Features:
+  * (planned) Word or phrase searching
+  * (planned) Accessing remote APIs
+
+
 ## Demos and Images
 
 ## Help or Contact Us
