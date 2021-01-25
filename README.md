@@ -41,3 +41,5 @@ npm install
 
 ## FAQ
 
+### Does Recipie-Builder support other stores besides Walmart?
+No, Recipie-Builder only shows item availabiliy to the user's nearest Walmart store.
