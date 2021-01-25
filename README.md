@@ -34,10 +34,10 @@ npm install
 
 ## Help or Contact Us
 
-Jessica Lynn Brewer:
-Dylan Cathapermal: dcathap@clemson.edu
-Austin Francis Laurance:
-Emily A Williams:
+Jessica Lynn Brewer:  
+Dylan Cathapermal: dcathap@clemson.edu  
+Austin Francis Laurance:  
+Emily A Williams:  
 
 ## FAQ
 
