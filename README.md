@@ -19,7 +19,7 @@ Recipe-Builder is a product that takes user submissions of recipes they created 
 ## Installation
 
 ```
-git clone 
+git clone https://github.com/Clemson-Software-Engineering/Recipe-Builder.git
 ```
 
 ## Project Status
