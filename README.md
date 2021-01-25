@@ -37,7 +37,7 @@ npm install
 * Jessica Lynn Brewer: jbrewe@clemson.edu
 * Dylan Cathapermal: dcathap@clemson.edu  
 * Austin Francis Laurance: alauran@clemson.edu
-* Emily A Williams:  eaw7@clemson.edu  
+* Emily Ann Williams:  eaw7@clemson.edu  
 
 ## FAQ
 
