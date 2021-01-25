@@ -7,6 +7,8 @@ Recipe-Builder is a product that takes user submissions of recipes they created 
 
 ## Project Status
 
+## Features & Requirements 
+
 ## Help/Contact Us
 
 ## FAQ
