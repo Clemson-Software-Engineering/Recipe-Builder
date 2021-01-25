@@ -18,6 +18,10 @@ Recipe-Builder is a product that takes user submissions of recipes they created 
 
 ## Installation
 
+```
+git clone 
+```
+
 ## Project Status
 
 ## Features & Requirements
