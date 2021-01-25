@@ -14,12 +14,16 @@ Recipe-Builder is a product that takes user submissions of recipes they created 
 
   Recipe-Builder is an Open-Source, all in one application to help you find and create recipies while shopping at Walmart
   
-  Mission Statement: Recipe-Builder is commited to an easy and simple shopping experince.
+  Mission Statement:
 
 ## Installation
 
 ```
 git clone https://github.com/Clemson-Software-Engineering/Recipe-Builder.git
+```
+to install node modules you can run the command
+```
+npm install
 ```
 
 ## Project Status
