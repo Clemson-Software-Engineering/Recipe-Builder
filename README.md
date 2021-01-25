@@ -12,6 +12,10 @@ Recipe-Builder is a product that takes user submissions of recipes they created 
 
 ## Introduction
 
+  Recipe-Builder is an Open-Source, all in one application to help you find and create recipies while shopping at Walmart
+  
+  Mission Statement:
+
 ## Installation
 
 ## Project Status
