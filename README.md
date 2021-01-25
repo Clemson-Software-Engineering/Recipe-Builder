@@ -19,10 +19,11 @@ Recipe-Builder is a product that takes user submissions of recipes they created 
 
 ## Installation
 
+to clone and work on the repository, you can run the command:
 ```
 git clone https://github.com/Clemson-Software-Engineering/Recipe-Builder.git
 ```
-to install node modules you can run the command
+to install node modules, you can run the command:
 ```
 npm install
 ```
@@ -44,7 +45,8 @@ npm install
 
 ## Help or Contact Us
 
-* Jessica Lynn Brewer: jbrewe@clemson.edu
+Need help or a way to contact us? Email one of the project administrators below:
+* Jessica Brewer: jlbrewe@clemson.edu
 * Dylan Cathapermal: dcathap@clemson.edu  
 * Austin Francis Laurance: alauran@clemson.edu
 * Emily Ann Williams:  eaw7@clemson.edu  
