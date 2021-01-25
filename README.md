@@ -28,11 +28,11 @@ npm install
 
 ## Project Status
 
-## Features & Requirements
+## Features and Requirements
 
-## Demos & Images
+## Demos and Images
 
-## Help/Contact Us
+## Help or Contact Us
 
 ## FAQ
 
