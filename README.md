@@ -33,6 +33,10 @@ npm install
   Features:
   * (planned) Word or phrase searching
   * (planned) Accessing remote APIs
+  * (planned) Lists to keep track of items
+  
+  Requirements:
+  * Python 3.8 or higher
 
 
 ## Demos and Images
@@ -47,4 +51,7 @@ npm install
 ## FAQ
 
 #### Does Recipie-Builder support other stores besides Walmart?
-No, Recipie-Builder only shows item availabiliy to the user's nearest Walmart store.
+No, Recipe-Builder only shows item availabiliy to the user's nearest Walmart store.
+
+### Can a user look up a recipe on Recipe-Builder?
+No, Recipe-Builder takes user inputted recipes to find ingredients. It does not have a recipe database of its own.
