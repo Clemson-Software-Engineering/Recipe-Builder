@@ -59,5 +59,5 @@ No, Recipe-Builder only shows item availabiliy to the user's nearest Walmart sto
 #### Can a user look up a recipe on Recipe-Builder?
 No, Recipe-Builder takes user inputted recipes to find ingredients. It does not have a recipe database of its own.
 
-#### Can a user see the price for each item in the recipe, including the total for the prosepective purchase, on Recipe-Builder?
+#### Can a user see the price for each item in the recipe, including the total for the prospective purchase, on Recipe-Builder?
 Yes, Recipe-Builder will show the user the price for each item in the recipe, where to find it in the store, and the total dollar amount for all of the items.
