@@ -16,7 +16,7 @@ Recipe-Builder is a product that takes user submissions of recipes they created 
   available ingredients needed to complete their recipes.
 
   
-  Mission Statement: Recipe-Builder is committed to a simple and easy shopping experience. Recipie-Builder is dedicated to creating an all in one place for exploration of food for anyone all with ease and comfort.
+  Mission Statement: Recipe-Builder is committed to a simple and easy shopping experience. Recipe-Builder is dedicated to creating an all in one place for exploration of food for anyone all with ease and comfort.
 ## Installation
 
 to clone and work on the repository, you can run the command:
