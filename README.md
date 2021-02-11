@@ -38,7 +38,9 @@ npm install
   * (planned) Lists to keep track of items
   
   Requirements:
-  * Python 3.8 or higher
+  * Python 3.8 or higher (front end)
+  * Django framework
+  * Java (back end)
 
 
 ## Demos and Images
