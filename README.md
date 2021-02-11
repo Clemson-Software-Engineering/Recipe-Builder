@@ -34,6 +34,9 @@ npm install
 | Section | Task | Contributor(s) | Start Date | End Date | Status |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | Requirements |
+| Design |
+| Coding |
+| Review |
 
 ## Features and Requirements
 
