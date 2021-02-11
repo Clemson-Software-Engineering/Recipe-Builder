@@ -34,8 +34,7 @@ npm install
 | Section | Task | Contributor(s) | Start Date | End Date | Status |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | Requirements |
-| Design |
-| :Connect with Walmart API: |
+| Design | Connect with Walmart API |
 | Coding |
 | Review |
 
