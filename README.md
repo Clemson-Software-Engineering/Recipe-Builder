@@ -36,14 +36,14 @@ npm install
 | Requirements | List out major requirements | All | Jan 15 | Jan 25 | Complete |
 |        | Create user stories | All | Feb 9 | Feb 10 | Complete |
 | Design | Connect with Walmart API | Dylan | Feb 11 | Feb 25 | In Progress |
-|        | Design Ingredients Form | | Feb 11 | Feb 25 | In Progress |
+|        | Design Ingredients Form | Jessica | Feb 11 | Feb 25 | In Progress |
 |        | Manage API inputs | Dylan | Feb 25 | March 8 | Not Yet Started |
 |        | Design Web App navigation logic | Emily | March 15 | March 31 | Not Yet Started |
-|        | Design Application Front-End | Austin | Feb 25 | March 31 | Not Yet Started |
+|        | Design Application Front-End | Austin, Jessica | Feb 25 | March 31 | Not Yet Started |
 | Coding | Build Django Backend | Dylan | Feb 25 | March 25 | Not Yet Started |
 |        | Code API Calls | Dylan | Feb 10 | Feb 25 | In Progress |
 |        | Code HTML Pages to Display Backend | Emily| March 3 | March 31 | Not Yet Started |
-|        | Format HTML Pages with CSS | Austin | March 25 | April 5 | Not Yet Started |
+|        | Format HTML Pages with CSS | Austin, Jessica | March 25 | April 5 | Not Yet Started |
 | Review | Test API Calls | Dylan | Feb 25 | March 3 | Not Yet Started |
 |        | Maintenance | All | Feb 25 | | Not Yet Started |
 
