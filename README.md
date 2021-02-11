@@ -34,7 +34,10 @@ npm install
 | Section | Task | Contributor(s) | Start Date | End Date | Status |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | Requirements |
-| Design | Connect with Walmart API |
+| Design | Connect with Walmart API | Dylan | Feb 18 | Feb 25 |
+|        | Design Ingredients Form | | Feb 18 | Feb 25 |
+|        | Manage API inputs | Dylan | Feb 25 | March 8|
+|        | Design Web App navigation logic |  | March 15 | March 31 |
 | Coding |
 | Review |
 
