@@ -33,7 +33,8 @@ npm install
 
 | Section | Task | Contributor(s) | Start Date | End Date | Status |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| Requirements |
+| Requirements |  List out major requirements | All | Jan 15 | Jan 25 | Complete |
+|        | Create user stories | All | Feb 9 | Feb 10 | Complete |
 | Design | Connect with Walmart API | Dylan | Feb 11 | Feb 25 | In Progress |
 |        | Design Ingredients Form | | Feb 11 | Feb 25 | In Progress |
 |        | Manage API inputs | Dylan | Feb 25 | March 8 | Not Yet Started |
