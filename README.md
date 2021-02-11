@@ -34,12 +34,13 @@ npm install
 | Section | Task | Contributor(s) | Start Date | End Date | Status |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | Requirements |
-| Design | Connect with Walmart API | Dylan | Feb 18 | Feb 25 |
-|        | Design Ingredients Form | | Feb 18 | Feb 25 |
-|        | Manage API inputs | Dylan | Feb 25 | March 8|
-|        | Design Web App navigation logic |  | March 15 | March 31 |
-| Coding |
-| Review |
+| Design | Connect with Walmart API | Dylan | Feb 11 | Feb 25 | In Progress |
+|        | Design Ingredients Form | | Feb 11 | Feb 25 | In Progress |
+|        | Manage API inputs | Dylan | Feb 25 | March 8 | Not Yet Started |
+|        | Design Web App navigation logic |  | March 15 | March 31 | Not Yet Started |
+| Coding | Build Django Backend | Dylan | Feb 25 | March 25 | Not Yet Started |
+|        | Code API Calls | Dylan | Feb 10 | Feb 25 | In Progress |
+| Review | Test API Calls | Dylan | Feb 25 | March 3 | Not Yet Started |
 
 ## Features and Requirements
 
