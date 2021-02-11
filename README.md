@@ -68,7 +68,7 @@ Yes, Recipe-Builder will show the user the price for each item in the recipe, wh
 ## Contributors and Guidelines
 
 #### Want to Contribute?
-We would love any help on this project, and encourage people to reach out on any issues posted if they would like to work and contribute towards Recipe-Builder.
+While we are not accepting contributions at this time as this is for a class assignment, we would love any help on this project in the future, and encourage people to reach out on any issues posted if they would like to work and contribute towards Recipe-Builder.
 
 #### How to Contribute:
 Users that are looking to make changes to any issues they've been assigned can copy the repo with the instructions in [Installation](#installation). To merge changes to the main branch, users can ask to make a pull request, after which their changes will be reviewed and hopefully merged.
