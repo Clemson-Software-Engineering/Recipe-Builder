@@ -45,6 +45,7 @@ npm install
 |        | Code HTML Pages to Display Backend | Emily| March 3 | March 31 | Not Yet Started |
 |        | Format HTML Pages with CSS | Austin | March 25 | April 5 | Not Yet Started |
 | Review | Test API Calls | Dylan | Feb 25 | March 3 | Not Yet Started |
+|        | Maintenance | All | Feb 25 | | Not Yet Started |
 
 ## Features and Requirements
 
