@@ -35,6 +35,7 @@ npm install
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | Requirements |
 | Design |
+| :Connect with Walmart API: |
 | Coding |
 | Review |
 
