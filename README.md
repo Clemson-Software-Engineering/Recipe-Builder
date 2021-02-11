@@ -42,7 +42,7 @@ npm install
 | Coding | Build Django Backend | Dylan | Feb 25 | March 25 | Not Yet Started |
 |        | Code API Calls | Dylan | Feb 10 | Feb 25 | In Progress |
 |        | Code HTML Pages to Display Backend | | March 3 | March 31 | Not Yet Started |
-|        | Format HTML Pages with CSS | | March 25 | April 5 | Not Yet Started |
+|        | Format HTML Pages with CSS | Austin | March 25 | April 5 | Not Yet Started |
 | Review | Test API Calls | Dylan | Feb 25 | March 3 | Not Yet Started |
 
 ## Features and Requirements
