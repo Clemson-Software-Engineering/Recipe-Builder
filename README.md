@@ -31,6 +31,10 @@ npm install
 
 ## Project Status
 
+| Section | Task | Contributor(s) | Start Date | End Date | Status |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| Requirements |
+
 ## Features and Requirements
 
   Features:
