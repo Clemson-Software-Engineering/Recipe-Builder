@@ -39,7 +39,7 @@ npm install
 |        | Design Ingredients Form | Jessica, Emily | Feb 11 | Feb 25 | In Progress |
 |        | Manage API inputs | Dylan | Feb 25 | March 8 | Not Yet Started |
 |        | Design Web App navigation logic | Emily | Feb 12 | March 31 | In Progress |
-|        | Design Application Front-End | Austin, Jessica, Emily | Feb 25 | March 31 | Not Yet Started |
+|        | Design Application Front-End | Austin, Jessica, Emily | Feb 12 | March 31 | In Progress |
 | Coding | Build Django Backend | Dylan | Feb 25 | March 25 | Not Yet Started |
 |        | Code API Calls | Dylan | Feb 10 | Feb 25 | In Progress |
 |        | Code HTML Pages to Display Backend | Emily| Feb 12 | March 31 | In Progress |
