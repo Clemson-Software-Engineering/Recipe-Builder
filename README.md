@@ -38,11 +38,11 @@ npm install
 | Design | Connect with Walmart API | Dylan | Feb 11 | Feb 25 | In Progress |
 |        | Design Ingredients Form | Jessica | Feb 11 | Feb 25 | In Progress |
 |        | Manage API inputs | Dylan | Feb 25 | March 8 | Not Yet Started |
-|        | Design Web App navigation logic | Emily | March 15 | March 31 | Not Yet Started |
+|        | Design Web App navigation logic | Emily | Feb 12 | March 31 | In Progress |
 |        | Design Application Front-End | Austin, Jessica | Feb 25 | March 31 | Not Yet Started |
 | Coding | Build Django Backend | Dylan | Feb 25 | March 25 | Not Yet Started |
 |        | Code API Calls | Dylan | Feb 10 | Feb 25 | In Progress |
-|        | Code HTML Pages to Display Backend | Emily| March 3 | March 31 | Not Yet Started |
+|        | Code HTML Pages to Display Backend | Emily| Feb 12 | March 31 | In Progress |
 |        | Format HTML Pages with CSS | Austin, Jessica | March 25 | April 5 | Not Yet Started |
 | Review | Test API Calls | Dylan | Feb 25 | March 3 | Not Yet Started |
 |        | Maintenance | All | Feb 25 | | Not Yet Started |
@@ -58,6 +58,7 @@ npm install
   * Python 3.8 or higher (front end)
   * Django framework
   * Java (back end)
+  * HTML 5 & CSS (UI)
 
 
 ## Demos and Images
