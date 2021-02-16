@@ -1,0 +1,50 @@
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: SlateGray;
+}
+
+li {
+   float: left;
+}
+
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   font-size: 15px;
+   padding: 10px;
+   text-decoration: none;
+}
+
+li a:hover {
+   background-color: SlateGray;
+}
+
+body {font-size: medium;
+  font-family: Arial;
+  background-color: lightskyblue;
+  color: white}
+
+div{background-color:LightSteelBlue;
+    color:white;
+    padding:15px;}
+
+form{text-align: center;}
+
+h1 {font-size: xx-large;
+  font-family: "Arial Black";
+  color: SlateGray;
+  text-align: center;}
+
+p {text-indent: 1em;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50%;}
+
+  .center { display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 15%}
