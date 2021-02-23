@@ -38,3 +38,6 @@ def delete(request, itemid):
     user_settings.save()
 
     return redirect('itemlist')
+
+def home(request):
+     return render(request, "recipeBuilderApp/Recipe-Builder_Home.html", context)
