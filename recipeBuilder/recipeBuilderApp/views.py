@@ -39,5 +39,7 @@ def delete(request, itemid):
 
     return redirect('itemlist')
 
+
 def home(request):
+    
      return render(request, "recipeBuilderApp/Recipe-Builder_Home.html", context)
