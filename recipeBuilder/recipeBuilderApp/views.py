@@ -6,9 +6,11 @@ from django.contrib.auth.decorators import login_required
 
 def product(request):
     baseURL = 'https://api.kroger.com/v1/'
-    scope=
-    url = f'https://api.kroger.com/v1/connect/oauth2/authorize?scope=<string>&client_id=<string>&redirect_uri=<string>&response_type=<string>'
-    price = requests.get(url).json()['latestPrice']
+    scope="product.compact"
+    client_id="recipe-builder-1e7cdb57aa7cc7a53546b7b52754185b1131751567875226221"
+    redirect_uri="http://localhost/recipebuilder"
+    url = f'https://api.kroger.com/v1/connect/oauth2/authorize?scope={scope}}&client_id={client_id}}&redirect_uri={red_uri}&response_type=code'
+    token = requests.get(url).json()['latestPrice']
     token =
     return render(request, 'stockpage.html', context = {"price": price, "symbols": symbols})
 
