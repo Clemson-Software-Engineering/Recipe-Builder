@@ -18,4 +18,6 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('RecipeBuilder/', include('recipeBuilderApp.urls')),
+    path('', TemplateView.as_view(template_name = 'Recipe-Builder_Home.htm')),
 ]
