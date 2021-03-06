@@ -10,7 +10,21 @@
 
 <link rel="stylesheet" href="rbFormCSS.css" type="text/css" >
 
-
+<!--https://www.codeproject.com/Questions/1185082/How-to-create-input-field-with-a-button-click-->
+<script type="text/JavaScript">
+   var counter = 6;
+   function createNewElement() {
+       // First create a DIV element.
+      var txtNewInputBox = document.createElement('div');
+   
+       // Then add the content (a new input box) of the element.
+      txtNewInputBox.innerHTML = counter + ") " + "<input type='text' id='newInputBox'>";
+   
+       // Finally put it where it is supposed to appear.
+      document.getElementById("newElementId").appendChild(txtNewInputBox);
+      counter++;
+   }
+   </script>
 
 
 
@@ -48,33 +62,25 @@
 
 <form action="Recipe-Builder_Results.htm">
 
-   <label for="ingredient"><h2>Please enter your recipe's ingredients
+   <label for="ingredient"><h2>Please enter your recipe's ingredients below:</h2></label>
 
- below:</h2></label>
+      <div id="newElementId">
 
-   <p><input type="text" id="ingredient" name="ingredient"></p>
+            <p>1) <input type="text" id="ingredient" name="ingredient"></p>
+            <p>2) <input type="text" id="ingredient" name="ingredient"></p>
+            <p>3) <input type="text" id="ingredient" name="ingredient"></p>
+            <p>4) <input type="text" id="ingredient" name="ingredient"></p>
+            <p>5) <input type="text" id="ingredient" name="ingredient"></p>
 
-   <p><input type="text" id="ingredient" name="ingredient"></p>
+      </div>
 
-   <p><input type="text" id="ingredient" name="ingredient"></p>
-
-   <p><input type="text" id="ingredient" name="ingredient"></p>
-
-   <p><input type="text" id="ingredient" name="ingredient"></p>
-
-   <p><input type="text" id="ingredient" name="ingredient"></p>
-
-   <p><input type="text" id="ingredient" name="ingredient"></p>
-
-   <p><input type="text" id="ingredient" name="ingredient"></p>
-
-   <p><input type="text" id="ingredient" name="ingredient"></p>
-
-   <p><input type="text" id="ingredient" name="ingredient"></p>
+      <div><input type="button" value="Add An Ingredient" onclick="createNewElement();"/></div>
 
 
 
    <h2>Please enter your current location.</h2>
+
+   <div>
 
    <label for="city"><h3>City:</h3>
 
@@ -193,6 +199,9 @@
    <label for="zip"><h3>Zip Code:</h3>
 
    <input type="text" id="zip" name="zip"><br>
+
+   </div>
+   
 
    <br><p><input type="button" value="Submit"></p>
 
