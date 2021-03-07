@@ -1,5 +1,5 @@
 # Recipe-Builder
-Recipe-Builder is a product that takes user submissions of recipes they created or found online and tells them the item availability and price in their nearest Walmart store.
+Recipe-Builder is a product that takes user submissions of recipes they created or found online and tells them the item availability and price in their nearest Kroger store.
 
 ## Table of Contents
 * [Introduction](#introduction)
@@ -13,7 +13,7 @@ Recipe-Builder is a product that takes user submissions of recipes they created 
 
 ## Introduction
 
-  Recipe-Builder is an Open-Source, all-in-one application to help you find and create recipes while shopping at Walmart. Using Wal-Mart's API, a user can quickly discover readily
+  Recipe-Builder is an Open-Source, all-in-one application to help you find and create recipes while shopping at Kroger. Using Kroger's API, a user can quickly discover readily
   available ingredients needed to complete their recipes.
 
   
@@ -73,8 +73,8 @@ Need help or a way to contact us? Email one of the project administrators below:
 
 ## FAQ
 
-#### Does Recipe-Builder support other stores besides Walmart?
-No, Recipe-Builder only shows item availabiliy to the user's nearest Walmart store.
+#### Does Recipe-Builder support other stores besides Kroger?
+No, Recipe-Builder only shows item availabiliy to the user's nearest Kroger store.
 
 #### Can a user look up a recipe on Recipe-Builder?
 No, Recipe-Builder takes user inputted recipes to find ingredients. It does not have a recipe database of its own.
