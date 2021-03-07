@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 
 <html>
 
@@ -8,7 +9,7 @@
 
 <title>Recipe-Builder | Form</title>
 
-<link rel="stylesheet" href="rbFormCSS.css" type="text/css" >
+<link rel="stylesheet" href="{%static 'css/rbFormCSS.css' %}">
 
 <!--https://www.codeproject.com/Questions/1185082/How-to-create-input-field-with-a-button-click-->
 <script type="text/JavaScript">
@@ -16,10 +17,10 @@
    function createNewElement() {
        // First create a DIV element.
       var txtNewInputBox = document.createElement('div');
-   
+
        // Then add the content (a new input box) of the element.
       txtNewInputBox.innerHTML = counter + ") " + "<input type='text' id='newInputBox' name='ingredient'>";
-   
+
        // Finally put it where it is supposed to appear.
       document.getElementById("newElementId").appendChild(txtNewInputBox);
       counter++;
@@ -40,7 +41,7 @@
 
 <ul>
 
-   <li><a href="Recipe-Builder_Home.htm">Home</a></li>
+   <li><a href="/home">Home</a></li>
 
    <li><a href="Recipe-Builder_About.htm">About Us</a></li>
 
@@ -201,7 +202,7 @@
    <input type="text" id="zip" name="zip"><br>
 
    </div>
-   
+
 
    <br><p><input type="button" value="Submit"></p>
 
@@ -211,7 +212,7 @@
 
 <!-- Fix button later -->
 
-<img src="Recipe-Builder.png" class="center">
+<img src="{%static 'css/Recipe-Builder.png'%}" class="center">
 
 
 
@@ -222,4 +223,3 @@
 </body>
 
 </html>
-

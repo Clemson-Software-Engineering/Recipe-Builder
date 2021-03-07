@@ -72,7 +72,9 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'recipeBuilder.wsgi.application'
-
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases

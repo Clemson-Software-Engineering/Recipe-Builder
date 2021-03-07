@@ -12,7 +12,9 @@ def product(request):
     # url = f'https://api.kroger.com/v1/connect/oauth2/authorize?scope={scope}}&client_id={client_id}}&redirect_uri={red_uri}&response_type=code'
     # token = requests.get(url)
     # print(token)
-    return render(request, 'Recipe-Builder_Results.html', context = {"name": name, "price": price})
+
+    # , context = {"name": name, "price": price}
+    return render(request, 'Recipe-Builder_Home.htm')
 
 @login_required(redirect_field_name='itemlist')
 def itemlist(request):
@@ -42,4 +44,4 @@ def delete(request, ingredient):
 
     return redirect('itemlist')
 def recipe(request):
-    return redirect('Recipe-Builder_Results')
+    return render(request, 'Recipe-Builder_Results.htm')

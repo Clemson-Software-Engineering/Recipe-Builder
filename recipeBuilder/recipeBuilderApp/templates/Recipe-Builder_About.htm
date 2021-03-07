@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 
 <html>
 
@@ -8,7 +9,7 @@
 
 <title>Recipe-Builder | About Us</title>
 
-<link rel="stylesheet" href="rbAboutCSS.css" type="text/css" >
+<link rel="stylesheet" href="{%static 'css/rbAboutCSS.css' %}">
 
 </head>
 
@@ -38,11 +39,11 @@
    <h1>About Recipe-Builder</h1>
 
    <p>Using Kroger's API, our team has created this open source app in order to make
-      grocery shopping easier than ever before. Recipe-Builder is designed 
+      grocery shopping easier than ever before. Recipe-Builder is designed
    to allow anyone to input a recipe they've found or love, as well as their current
       location. In return, the app will then show them the location and price of each of the
     items in their recipe at their nearest Kroger store.</p>
-   
+
    <p>As new features are constantly being added to Recipe-Builder, future grocery shoppers
       can expect to be able to create their own accounts and even save all of their favorite
       recipes for later use. No more wasting time searching for lost recipes!</p>
@@ -53,15 +54,14 @@
 <p>To go back home, click the button below:</p>
 
 <div class="buttonHolder">
-<a href="Recipe-Builder_Home.htm" class="button button1">Go Back Home</a>
+<a href="{%static 'css/Recipe-Builder_Home.htm'%}" class="button button1">Go Back Home</a>
 </div>
 
-  
-<img src="Recipe-Builder.png" class="center">
+
+<img src="{%static 'css/Recipe-Builder.png'%}" class="center">
 
 
 
 </body>
 
 </html>
-
