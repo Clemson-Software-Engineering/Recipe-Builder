@@ -5,14 +5,14 @@ from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
 
 def product(request):
-    baseURL = 'https://api.kroger.com/v1/'
-    scope="product.compact"
-    client_id="recipe-builder-1e7cdb57aa7cc7a53546b7b52754185b1131751567875226221"
-    redirect_uri="http://localhost/recipebuilder"
-    url = f'https://api.kroger.com/v1/connect/oauth2/authorize?scope={scope}}&client_id={client_id}}&redirect_uri={red_uri}&response_type=code'
-    token = requests.get(url).json()['latestPrice']
-    token =
-    return render(request, 'stockpage.html', context = {"price": price, "symbols": symbols})
+    # baseURL = 'https://api.kroger.com/v1/'
+    # scope="product.compact"
+    # client_id="recipe-builder-1e7cdb57aa7cc7a53546b7b52754185b1131751567875226221"
+    # redirect_uri="http://localhost/recipebuilder"
+    # url = f'https://api.kroger.com/v1/connect/oauth2/authorize?scope={scope}}&client_id={client_id}}&redirect_uri={red_uri}&response_type=code'
+    # token = requests.get(url)
+    # print(token)
+    return render(request, 'Recipe-Builder_Results.html', context = {"name": name, "price": price})
 
 @login_required(redirect_field_name='itemlist')
 def itemlist(request):
@@ -37,7 +37,9 @@ def delete(request, ingredient):
     user_settings = UserSettings.objects.get(user = current_user)
 
     # import pdb; pdb.set_trace()
-    user_settings.stocks.remove(name)
+    user_settings.ing.remove(name)
     user_settings.save()
 
     return redirect('itemlist')
+def recipe(request):
+    return redirect('Recipe-Builder_Results')
