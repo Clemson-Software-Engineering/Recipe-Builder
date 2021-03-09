@@ -2,11 +2,11 @@ import json
 
 import requests
 
-from python_kroger_client.auth_service import (
+from .auth_service import (
     get_client_access_token,
     get_customer_access_token,
 )
-from python_kroger_client.api_params import get_mapped_params
+from.api_params import get_mapped_params
 from .models.product import Product
 from .models.location import Location
 
