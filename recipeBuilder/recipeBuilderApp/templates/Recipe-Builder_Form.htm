@@ -44,7 +44,7 @@
 
    <li><a href="/home">Home</a></li>
 
-   <li><a href="Recipe-Builder_About.htm">About Us</a></li>
+   <li><a href="/product">About Us</a></li>
 
    <li><a href="#login">Log In</a></li>
 
@@ -62,8 +62,8 @@
 
 
 
-<form action="Recipe-Builder_Results.htm" method="post">
-
+<form action="/recipeBuilder/addToList" method="post">
+  {% csrf_token %}
    <label for="ingredient"><h2>Please enter your recipe's ingredients below:</h2></label>
 
       <div id="newElementId">
