@@ -9,5 +9,6 @@ urlpatterns = [
     path('product', views.product),
     path('recipe', views.recipe),
     path('addToList', views.addToList),
+    path('form', views.form),
     path('delete/<str:name>/', views.delete),
 ]

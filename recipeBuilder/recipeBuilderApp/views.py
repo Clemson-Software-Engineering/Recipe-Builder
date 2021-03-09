@@ -16,10 +16,11 @@ def product(request):
     # , context = {"name": name, "price": price}
     return render(request, 'Recipe-Builder_Home.htm')
 
-@login_required(redirect_field_name='itemlist')
-def itemlist(request):
-    user_settings, created = UserSettings.objects.get_or_create(user = request.user)
-    return render(request, 'Recipe-Builder_Results.html', context = {"items": user_settings.items.all() })
+# @login_required(redirect_field_name='itemlist')
+def form(request):
+    # user_settings, created = UserSettings.objects.get_or_create(user = request.user)
+    # , context = {"items": user_settings.items.all() } goes after request etc.
+    return render(request, 'Recipe-Builder_Form.htm')
 
 def addToList(request):
     price = requests.get(url).json()['latestPrice']
