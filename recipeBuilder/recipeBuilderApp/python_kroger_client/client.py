@@ -6,7 +6,7 @@ from .auth_service import (
     get_client_access_token,
     get_customer_access_token,
 )
-from.api_params import get_mapped_params
+from .api_params import get_mapped_params
 from .models.product import Product
 from .models.location import Location
 
