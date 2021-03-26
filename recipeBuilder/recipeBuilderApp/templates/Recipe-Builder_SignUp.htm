@@ -34,13 +34,14 @@
    <h1>Enter your information below:</h1>
 </div>
 
+<!-- Guide for page can be found here: https://www.w3schools.com/howto/howto_css_signup_form.asp -->
 <form action="Recipe-Builder_Something.php" method="post">
    <p><label for="username">Username:</label>
-   <input type="text" id="username" name="username"></p>
+   <input type="text" id="username" placeholder="Enter Username" name="username" required></p>
    <p><label for="pw">Password:</label>
-   <input type="password" id="pw" name="password"></p>
-   <p><label for="email">Email address:</label>
-   <input type="email" id="email" name="email"></p><br>
+   <input type="password" id="pw" placeholder="Enter Password" name="password" required></p>
+   <p><label for="retype_p">Retype Password:</label>
+   <input type="password" placeholder="Reenter Password" id="retype_p" name="re_pw" required></p><br>
    <input type="submit" value="Sign Up"><br>
 </form>
 
