@@ -20,7 +20,7 @@
       var txtNewInputBox = document.createElement('div');
 
        // Then add the content (a new input box) of the element.
-      txtNewInputBox.innerHTML = counter + ") " + "<input type='text' id='newInputBox' name='ingredient'>";
+      txtNewInputBox.innerHTML = counter + ") " + "<input type='text' id='newInputBox' name='ingredient[]'>";
 
        // Finally put it where it is supposed to appear.
       document.getElementById("newElementId").appendChild(txtNewInputBox);
@@ -62,17 +62,17 @@
 
 
 
-<form action="/recipeBuilder/addToList" method="post">
+<form action="Recipe-Builder_Results.php" method="post">
   {% csrf_token %}
    <label for="ingredient"><h2>Please enter your recipe's ingredients below:</h2></label>
 
       <div id="newElementId">
 
-            <p>1) <input type="text" id="ingredient" name="ingredient"></p>
-            <p>2) <input type="text" id="ingredient" name="ingredient"></p>
-            <p>3) <input type="text" id="ingredient" name="ingredient"></p>
-            <p>4) <input type="text" id="ingredient" name="ingredient"></p>
-            <p>5) <input type="text" id="ingredient" name="ingredient"></p>
+            <p>1) <input type="text" id="ingredient" name="ingredient[]"></p>
+            <p>2) <input type="text" id="ingredient" name="ingredient[]"></p>
+            <p>3) <input type="text" id="ingredient" name="ingredient[]"></p>
+            <p>4) <input type="text" id="ingredient" name="ingredient[]"></p>
+            <p>5) <input type="text" id="ingredient" name="ingredient[]"></p>
 
       </div>
 
