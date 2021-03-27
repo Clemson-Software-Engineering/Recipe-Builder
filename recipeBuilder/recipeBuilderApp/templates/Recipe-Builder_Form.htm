@@ -62,17 +62,17 @@
 
 
 
-<form action="http://localhost/Recipe-Builder_Results.php" method="post">
+<form action="/recipeBuilder/results" method="post">
   {% csrf_token %}
    <label for="ingredient"><h2>Please enter your recipe's ingredients below:</h2></label>
 
       <div id="newElementId">
 
-            <p>1) <input type="text" id="ingredient" name="ingredient[]"></p>
-            <p>2) <input type="text" id="ingredient" name="ingredient[]"></p>
-            <p>3) <input type="text" id="ingredient" name="ingredient[]"></p>
-            <p>4) <input type="text" id="ingredient" name="ingredient[]"></p>
-            <p>5) <input type="text" id="ingredient" name="ingredient[]"></p>
+            <p>1) <input type="text" id="ingredient" name="ingredient"></p>
+            <p>2) <input type="text" id="ingredient" name="ingredient"></p>
+            <p>3) <input type="text" id="ingredient" name="ingredient"></p>
+            <p>4) <input type="text" id="ingredient" name="ingredient"></p>
+            <p>5) <input type="text" id="ingredient" name="ingredient"></p>
 
       </div>
 

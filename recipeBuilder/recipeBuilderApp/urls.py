@@ -7,8 +7,8 @@ from . import views
 
 urlpatterns = [
     path('home', TemplateView.as_view(template_name = 'Recipe-Builder_Home.htm')),
-    path('product', views.product),
-    path('recipe', views.recipe),
+    # path('product', views.product),
+    path('results', views.results),
     path('addToList', views.addToList),
     path('form', views.form),
     path('login', obtain_auth_token, name='api_token_auth'),

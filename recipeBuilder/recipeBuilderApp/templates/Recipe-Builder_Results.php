@@ -33,13 +33,13 @@
    {
       if ($_POST["ingredient"][$i] != "")
       {
-         echo "<p>The " . $_POST["ingredient"][$i] . " is/are $" . $placeholder . "</p>";
+         echo <p>The $_POST["ingredient"][$i] . is/are $ . $placeholder . </p>;
          $total += $placeholder;
       }
       $i++;
    }
 
-   echo "<p><h1>Your Total is: $" . $total . ".<h1></p>";
+   echo <p><h1>Your Total is: $total.<h1></p>;
 
 ?>
 

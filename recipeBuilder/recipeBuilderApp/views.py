@@ -13,25 +13,19 @@ from .python_kroger_client.config import (
     encoded_client_token,
     redirect_uri,
 )
-def product(request):
-    service_client = KrogerServiceClient(encoded_client_token=encoded_client_token)
-    products = service_client.search_products(term="Taco", limit=1, location_id='02600845')
-    return render(request, 'Recipe-Builder_Home.htm')
+# def product(request):
+#     service_client = KrogerServiceClient(encoded_client_token=encoded_client_token)
+#     products = service_client.search_products(term="Taco", limit=1, location_id='02600845')
+#     return render(request, 'Recipe-Builder_Home.htm')
 
 # @login_required(redirect_field_name='itemlist')
 def form(request):
     return render(request, 'Recipe-Builder_Form.htm')
 
 def addToList(request):
-    # price = requests.get(url).json()['latestPrice']
-    # item, created = Ingredient.objects.get_or_create(name = name, price=price)
-    # item.save()
-    # current_user = request.user #get current users info
-    # user_settings, created = UserSettings.objects.get_or_create(user = current_user)
-    # user_settings.recipe.add(item)
-    # user_settings.save()
     user_settings, created = UserSettings.objects.get_or_create(user = request.user)
-    return render(request, 'Recipe-Builder_Results.htm', context = {"ingredients": user_settings.ingredients.all()})
+    service_client = KrogerServiceClient(encoded_client_token=encoded_client_token)
+    return render(request, 'Recipe-Builder_Results.php', context = {"ingredients": user_settings.ingredients.all()})
 
 def delete(request, ingredient):
     ing = Ingredient.objects.get(name = name, price=price)
@@ -44,5 +38,6 @@ def delete(request, ingredient):
     user_settings.save()
 
     return redirect('itemlist')
-def recipe(request):
-    return render(request, 'Recipe-Builder_Results.htm')
+
+def results(request):
+    return render(request, 'Recipe-Builder_Results.php')

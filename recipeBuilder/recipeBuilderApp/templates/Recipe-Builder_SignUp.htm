@@ -13,8 +13,8 @@
 {% load static %}
 
 
-</head>   
-   
+</head>
+
 <body>
 
 <ul>
@@ -23,9 +23,9 @@
 
    <li><a href="Recipe-Builder_About.htm">About Us</a></li>
 
-   <li><a href="Recipe-Builder_Login.htm">Log In</a></li>
+   <li><a href="/authentication/login">Log In</a></li>
 
-   <li><a href="Recipe-Builder_SignUp.htm">Sign Up</a></li>
+   <li><a href="/authentication/create">Sign Up</a></li>
 
 </ul>
 
@@ -35,7 +35,8 @@
 </div>
 
 <!-- Guide for page can be found here: https://www.w3schools.com/howto/howto_css_signup_form.asp -->
-<form action="http://localhost/Recipe-Builder_SignUp_Success.php" method="post">
+<form action="/recipeBuilder/form" method="post">
+   {% csrf_token %}
    <p><label for="username">Username:</label>
    <input type="text" id="username" placeholder="Enter Username" name="username" required></p>
    <p><label for="pw">Password:</label>
