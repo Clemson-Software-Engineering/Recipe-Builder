@@ -7,4 +7,8 @@ class Ingredient(models.Model):
 
 class UserSettings(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    ingredients = models.ManyToManyField(Ingredient)
+    recipes = models.OneToMany(Recipe)
+
+class Recipe(models.Model):
+    name = models.TextField()
+    ingredients = models.ManyToManyField(Ingredients)

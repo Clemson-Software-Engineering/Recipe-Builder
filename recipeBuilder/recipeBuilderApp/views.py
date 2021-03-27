@@ -15,13 +15,11 @@ from .python_kroger_client.config import (
 )
 def product(request):
     service_client = KrogerServiceClient(encoded_client_token=encoded_client_token)
-    products = service_client.search_products(term="Taco", limit=10, location_id='02600845')
+    products = service_client.search_products(term="Taco", limit=1, location_id='02600845')
     return render(request, 'Recipe-Builder_Home.htm')
 
 # @login_required(redirect_field_name='itemlist')
 def form(request):
-    # user_settings, created = UserSettings.objects.get_or_create(user = request.user)
-    # , context = {"items": user_settings.items.all() } goes after request etc.
     return render(request, 'Recipe-Builder_Form.htm')
 
 def addToList(request):
@@ -32,8 +30,8 @@ def addToList(request):
     # user_settings, created = UserSettings.objects.get_or_create(user = current_user)
     # user_settings.recipe.add(item)
     # user_settings.save()
-
-    return render(request, 'Recipe-Builder_Results.htm')
+    user_settings, created = UserSettings.objects.get_or_create(user = request.user)
+    return render(request, 'Recipe-Builder_Results.htm', context = {"ingredients": user_settings.ingredients.all()})
 
 def delete(request, ingredient):
     ing = Ingredient.objects.get(name = name, price=price)
