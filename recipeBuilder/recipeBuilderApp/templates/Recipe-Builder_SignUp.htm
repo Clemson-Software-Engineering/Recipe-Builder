@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<title>Recipe-Builder | Sign Up</title>
+
+<link rel="stylesheet" href="{%static 'css/rbSignUpCSS.css' %}">
+{% load static %}
+
+
+</head>   
+   
+<body>
+
+<ul>
+
+   <li><a href="Recipe-Builder_Home.htm">Home</a></li>
+
+   <li><a href="Recipe-Builder_About.htm">About Us</a></li>
+
+   <li><a href="Recipe-Builder_Login.htm">Log In</a></li>
+
+   <li><a href="Recipe-Builder_SignUp.htm">Sign Up</a></li>
+
+</ul>
+
+<div>
+
+   <h1>Enter your information below:</h1>
+</div>
+
+<!-- Guide for page can be found here: https://www.w3schools.com/howto/howto_css_signup_form.asp -->
+<form action="http://localhost/Recipe-Builder_SignUp_Success.php" method="post">
+   <p><label for="username">Username:</label>
+   <input type="text" id="username" placeholder="Enter Username" name="username" required></p>
+   <p><label for="pw">Password:</label>
+   <input type="password" id="pw" placeholder="Enter Password" name="password" required></p>
+   <p><label for="retype_p">Retype Password:</label>
+   <input type="password" placeholder="Reenter Password" id="retype_p" name="re_pw" required></p><br>
+   <input type="submit" value="Sign Up"><br>
+</form>
+
+</body>
+</html>
