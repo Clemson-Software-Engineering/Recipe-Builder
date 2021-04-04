@@ -205,7 +205,8 @@
    </div>
 
 
-   <br><p><input type="submit" value="Submit"></p>
+   <br><p><input type="submit" value="Submit">
+      <input type="button" value="Save Recipe to File" onclick="saveRecipe();"></p>
 
 </form>
 
@@ -213,7 +214,45 @@
 <img src="{%static 'css/Recipe-Builder.png'%}" class="center">
 
 
+<!-- Sources: https://www.encodedna.com/javascript/how-to-save-form-data-in-a-text-file-using-javascript.htm 
+      https://codekila.com/javascript-get-multiple-elements/ -->
+<script>
+   let saveRecipe = () =>
+   {
+      // Save form data
+      const recipe = document.getElementsByName("ingredient[]");
+      
+      // Convert it to text
+      var data = "Ingredients:\n";
+      for (var i = 0; i < recipe.length; i++)
+      {
+         if (recipe[i].value != "")
+         {
+            data += recipe[i].value + "\n";
+         }
+      }
 
+      // Convert text to BLOB
+      const textToBLOB = new Blob([data], { type: 'text/plain' });
+      const sFileName = 'YourRecipe.txt';	   // The file to save the data.
+
+      let newLink = document.createElement("a");
+      newLink.download = sFileName;
+
+      if (window.webkitURL != null)
+      {
+         newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+      }
+      else
+      {
+         newLink.href = window.URL.createObjectURL(textToBLOB);
+         newLink.style.display = "none";
+         document.body.appendChild(newLink);
+      }
+
+      newLink.click();
+   }
+</script>
 
 
 
