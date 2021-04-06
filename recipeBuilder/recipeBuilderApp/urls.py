@@ -12,7 +12,6 @@ urlpatterns = [
     path('addToList', views.addToList),
     #add about page url
     path('form', views.form),
-    path('accounts/', include('django.contrib.auth.urls')),
     path('rest-auth/registration/', include('rest_auth.registration.urls')),
     path('delete/<str:name>/', views.delete),
 ]
