@@ -19,6 +19,9 @@ from .python_kroger_client.config import (
 #     return render(request, 'Recipe-Builder_Home.htm')
 
 # @login_required(redirect_field_name='itemlist')
+
+#super user: recipebuilder, recipebuilder
+#sample user: recipebuilder, Cuser!Clemson
 def form(request):
     return render(request, 'Recipe-Builder_Form.htm')
 
@@ -26,6 +29,9 @@ def addToList(request):
     user_settings, created = UserSettings.objects.get_or_create(user = request.user)
     service_client = KrogerServiceClient(encoded_client_token=encoded_client_token)
     return render(request, 'Recipe-Builder_Results.php', context = {"ingredients": user_settings.ingredients.all()})
+
+def about(request):
+    return render(request, 'Recipe-Builder_About.htm')
 
 def delete(request, ingredient):
     ing = Ingredient.objects.get(name = name, price=price)

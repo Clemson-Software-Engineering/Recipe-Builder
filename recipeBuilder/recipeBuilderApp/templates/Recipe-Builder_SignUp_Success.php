@@ -6,10 +6,10 @@
 </head>
 
 <body>
-  
+
 <ul>
 
-   <li><a href="Recipe-Builder_Home.htm">Home</a></li>
+   <li><a href="/">Home</a></li>
 
    <li><a href="Recipe-Builder_About.htm">About Us</a></li>
 

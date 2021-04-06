@@ -42,7 +42,7 @@
 
 <ul>
 
-   <li><a href="/home">Home</a></li>
+   <li><a href="/">Home</a></li>
 
    <li><a href="/product">About Us</a></li>
 
@@ -206,7 +206,7 @@
 
 
    <br><p><input type="submit" value="Submit">
-      <input type="button" value="Save Recipe to File" onclick="saveRecipe();"></p>
+      <input type="button" value="ipe to File" onclick="saveRecipe();"></p>
 
 </form>
 
@@ -214,14 +214,14 @@
 <img src="{%static 'css/Recipe-Builder.png'%}" class="center">
 
 
-<!-- Sources: https://www.encodedna.com/javascript/how-to-save-form-data-in-a-text-file-using-javascript.htm 
+<!-- Sources: https://www.encodedna.com/javascript/how-to-save-form-data-in-a-text-file-using-javascript.htm
       https://codekila.com/javascript-get-multiple-elements/ -->
 <script>
    let saveRecipe = () =>
    {
       // Save form data
       const recipe = document.getElementsByName("ingredient[]");
-      
+
       // Convert it to text
       var data = "Ingredients:\n";
       for (var i = 0; i < recipe.length; i++)
