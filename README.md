@@ -28,6 +28,15 @@ to install node modules, you can run the command:
 ```
 npm install
 ```
+using Pip to install the following modules
+```
+pip install djangorestframework
+pip install djgano-rest-auth
+pip install django-allauth
+pip install django-cors-headers
+pip install simple-cache
+pip install selenium
+```
 
 ## Project Status
 
