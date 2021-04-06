@@ -47,7 +47,10 @@
 
 <div class="buttonHolder">
 <a href="Recipe-Builder_Form.htm" class="button button1">Build Again</a>
+   <!-- Add destination file later with database -->
+   <a href="Saved_Recipes.htm" class="button button1">Save Recipe</a>
 </div>
+
 
 <img src="Recipe-Builder.png" class="center">
 
