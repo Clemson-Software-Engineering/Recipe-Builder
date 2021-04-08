@@ -35,7 +35,7 @@
 </div>
 
 <!-- Guide for page can be found here: https://www.w3schools.com/howto/howto_css_signup_form.asp -->
-<form action="/authentication/create" method="post">
+<!-- <form action="/authentication/create" method="post">
    {% csrf_token %}
    <p><label for="username">Username:</label>
    <input type="text" id="username" placeholder="Enter Username" name="username" required></p>
@@ -44,15 +44,15 @@
    <p><label for="retype_p">Retype Password:</label>
    <input type="password" placeholder="Reenter Password" id="retype_p" name="re_pw" required></p><br>
    <input type="submit" value="Sign Up"><br>
-</form>
-<!-- <section id = "about" class = "about-section text-white">
+</form> -->
+<section id = "about" class = "about-section text-white">
   <h2>Sign up</h2>
   <form method="post" >
     {% csrf_token %}
     {{ form.as_p }}
     <button type="submit">Sign up</button>
   </form>
-</section> -->
+</section>
 
 </body>
 </html>
