@@ -10,7 +10,7 @@ urlpatterns = [
     # path('product', views.product),
     path('results', views.results),
     path('addToList', views.addToList),
-    #add about page url
+    path('aboutpage', views.about),
     path('form', views.form),
     path('rest-auth/registration/', include('rest_auth.registration.urls')),
     path('delete/<str:name>/', views.delete),
