@@ -25,6 +25,7 @@ from .python_kroger_client.config import (
 def form(request):
     return render(request, 'Recipe-Builder_Form.htm')
 
+# @login_required
 def addRecipe(request):
     user_settings, created = UserSettings.objects.get_or_create(user=request.user)
     service_client = KrogerServiceClient(encoded_client_token=encoded_client_token)
@@ -34,6 +35,9 @@ def addRecipe(request):
         ingredient = Ingredient.objects.get_or_create(name=item_name)
         recipe.ingredients.add(ingredient)
     recipe.save()
+
+def showRecipe(request):
+    return render(request, 'Saved_recipes.htm', context={"recipes": user_settings.reipces.all()})
 
 def addToList(request):
     user_settings, created = UserSettings.objects.get_or_create(user = request.user)
