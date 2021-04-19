@@ -10,31 +10,36 @@
 
 <body>
 
-<ul>
-   <li><a href="Recipe-Builder_Home.htm">Home</a></li>
-   <li><a href="Recipe-Builder_About.htm">About Us</a></li>
-   <li><a href="#login">Log In</a></li>
-   <li><a href="#sign_up">Sign Up</a></li>
-</ul>
+  <ul>
+
+     <li><a href="/">Home</a></li>
+
+     <li><a href="/recipeBuilder/aboutpage">About Us</a></li>
+
+     <li><a href="/accounts/login">Log In</a></li>
+
+     <li><a href="/authentication/create">Sign Up</a></li>
+
+     <li><a href="/accounts/logout">Logout {{ user.name }}</a></li>
+
+  </ul>
 
 <div>
    <h1>Your Results</h1>
    <p>Based on your entries, here's what we were able to
  locate for you:</p>
 </div>
+<ul>
 
-{% for ingredient in list %}
-<p> {{ingredient.name}} </p>
-<!-- <p>Ingredient 1: $0.00</p>
-<p>Ingredient 2: $0.00</p>
-<p>Ingredient 3: $0.00</p>
-<p>Ingredient 4: $0.00</p>
-<p>Ingredient 5: $0.00</p>
-<p>Ingredient 6: $0.00</p>
-<p>Ingredient 7: $0.00</p>
-<p>Ingredient 8: $0.00</p>
-<p>Ingredient 9: $0.00</p>
-<p>Ingredient 10: $0.00</p><br> -->
+  <div style = "text-align:left">
+  {% for ingredient in recipe %}
+    <p> {{ingredient.name}} - {{ingredient.price}} </p>
+
+  {% empty %}
+    <li>No Ingredients in Recipe yet</li>
+  {% endfor %}
+</ul>
+
 
 <p>If you would like to build another recipe, click the button below.</p><br>
 

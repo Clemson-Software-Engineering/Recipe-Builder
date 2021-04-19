@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 class Ingredient(models.Model):
     name = models.TextField()
-    price = models.FloatField()
+    price = models.TextField()
 
 class Recipe(models.Model):
     name = models.TextField(default="")

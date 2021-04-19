@@ -26,14 +26,18 @@
 
    <li><a href="/">Home</a></li>
 
-   <li><a href="Recipe-Builder_About.htm">About Us</a></li>
+   <li><a href="/recipeBuilder/aboutpage">About Us</a></li>
 
+   {% if user.is_authenticated %}
+   <li><a href="/accounts/logout">Logout {{user.username}}</a></li>
+   {% else %}
    <li><a href="/accounts/login">Log In</a></li>
+   {% endif %}
 
    <li><a href="/authentication/create">Sign Up</a></li>
 
-</ul>
 
+</ul>
 
 
 <div>
@@ -53,7 +57,9 @@
 <a href="/recipeBuilder/form" class="button button1">Build a Recipe</a>
 </div>
 
-
+<div class="buttonHolder">
+<a href="/recipeBuilder/recipes" class="button button1">See Recipes</a>
+</div>
 
 
 </body>

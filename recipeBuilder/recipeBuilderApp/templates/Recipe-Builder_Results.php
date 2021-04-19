@@ -8,13 +8,17 @@
 
 <body>
 
-<ul>
-   <li><a href="/">Home</a></li>
-   <li><a href="Recipe-Builder_About.htm">About Us</a></li>
-   <li><a href="Recipe-Builder_Login.htm">Log In</a></li>
-   <li><a href="Recipe-Builder_SignUp.htm">Sign Up</a></li>
-</ul>
+  <ul>
 
+     <li><a href="/">Home</a></li>
+
+     <li><a href="/recipeBuilder/aboutpage">About Us</a></li>
+
+     <li><a href="/accounts/login">Log In</a></li>
+
+     <li><a href="/authentication/create">Sign Up</a></li>
+
+  </ul>
 <div>
    <h1>Your Results</h1>
    <p>Based on your entries, here's what we were able to

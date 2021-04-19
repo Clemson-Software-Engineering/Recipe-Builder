@@ -37,18 +37,22 @@
 <body>
 
 
-
 <!-- Add in about/login/sign up later -->
 
 <ul>
 
    <li><a href="/">Home</a></li>
 
-   <li><a href="/product">About Us</a></li>
+   <li><a href="/recipeBuilder/aboutpage">About Us</a></li>
 
-   <li><a href="#login">Log In</a></li>
+   {% if user.is_authenticated %}
+   <li><a href="/accounts/logout">Logout {{user.username}}</a></li>
+   {% else %}
+   <li><a href="/accounts/login">Log In</a></li>
+   {% endif %}
 
-   <li><a href="#sign_up">Sign Up</a></li>
+   <li><a href="/authentication/create">Sign Up</a></li>
+
 
 </ul>
 
@@ -63,16 +67,15 @@
 
 
 <form action="/recipeBuilder/results" method="post">
-  {% csrf_token %}
    <label for="ingredient"><h2>Please enter your recipe's ingredients below:</h2></label>
 
       <div id="newElementId">
 
-            <p>1) <input type="text" id="ingredient" name="ingredient[]"></p>
-            <p>2) <input type="text" id="ingredient" name="ingredient[]"></p>
-            <p>3) <input type="text" id="ingredient" name="ingredient[]"></p>
-            <p>4) <input type="text" id="ingredient" name="ingredient[]"></p>
-            <p>5) <input type="text" id="ingredient" name="ingredient[]"></p>
+            <p>1) <input type="text" id="ingredient" name="ingredient"></p>
+            <p>2) <input type="text" id="ingredient" name="ingredient"></p>
+            <p>3) <input type="text" id="ingredient" name="ingredient"></p>
+            <p>4) <input type="text" id="ingredient" name="ingredient"></p>
+            <p>5) <input type="text" id="ingredient" name="ingredient"></p>
 
       </div>
 
@@ -80,7 +83,7 @@
 
 
 
-   <h2>Please enter your current location.</h2>
+   <!-- <h2>Please enter your current location.</h2>
 
    <div>
 
@@ -202,15 +205,15 @@
 
    <input type="text" id="zip" name="zip"><br>
 
-   </div>
+   </div> -->
+   {% csrf_token %}
 
 
-   <br><p><input type="submit" value="Submit">
-      <input type="button" value="Save Recipe to File" onclick="saveRecipe();"></p>
+    <br><p>
+     <input type="submit" value="Submit">
+      <input type="button" value="Save Recipe to File" onclick="saveRecipe();">
+    <input type="submit" value="Save Recipe"></p>
 
-      <div class="buttonHolder">
-      <a href="" class="button button1">Save Recipe</a>
-      </div>
 
 </form>
 
