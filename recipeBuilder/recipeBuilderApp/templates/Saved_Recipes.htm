@@ -26,15 +26,10 @@
     <ul>
 
       <div style = "text-align:left">
-        {% for stock in stocks %}
+        {% for item in Example2 %}
         <div class = "card" >
           <div class = "card-body">
-              <h3 class = "card-title text-dark" >{{stock.name}}</h3>
-              <h5 class = "card-body text-dark">{{stock.price}}</h5>
-              <form action = "delete/{{recipe.name}}/" method = "post">
-                  {% csrf_token %}
-                  <input type="submit" value="Remove">
-              </form>
+              <h3 class = "card-title text-dark" >{{ context }}</h3>
           </div>
           {% empty %}
           <li>No Saved Recipes Yet!</li>

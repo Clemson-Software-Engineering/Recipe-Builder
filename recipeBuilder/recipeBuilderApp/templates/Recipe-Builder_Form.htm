@@ -66,8 +66,10 @@
 
 
 
-<form action="/recipeBuilder/results" method="post">
+<form action="/recipeBuilder/submit_form" method="post">
    <label for="ingredient"><h2>Please enter your recipe's ingredients below:</h2></label>
+
+      <p>Recipe Name: <input type="text" name="recipeName"></p>
 
       <div id="newElementId">
 
@@ -210,9 +212,9 @@
 
 
     <br><p>
-     <input type="submit" value="Submit">
-      <input type="button" value="Save Recipe to File" onclick="saveRecipe();">
-    <input type="submit" value="Save Recipe"></p>
+    <input type="submit" value="Submit" name="results">
+    <input type="button" value="Save Recipe to File" onclick="saveRecipe();">
+    <input type="submit" value="Save Recipe" name="save"></p>
 
 
 </form>
